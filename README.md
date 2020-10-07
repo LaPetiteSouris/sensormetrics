@@ -15,8 +15,10 @@ To test the dry-run pipelines, please ensure:
 4. Execute the pipeline by using command:
     ```bash
  	bash dry_runner.sh -i <path_to_csv>
+	# bash dry_runner.sh -i sample.csv
      ```
 	*The csv file should NOT contain the header line*.
+	
 
 	The aggregated metrics data will be output to `./tmp/data/event_agg.csv `
 
